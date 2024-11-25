@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4CAF50; /* Change heading color here */
+}
+
+.editable-text {
+    font-size: 1.2rem; /* Adjust text size here */
+    color: #555;      /* Adjust text color here */
+    margin: 10px 0;
+}
+
+.editable-list {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: disc; /* Change list style */
+}
+
+.editable-list li {
+    font-size: 1rem; /* Adjust bullet item size */
+    color: #000;     /* Change bullet item color */
+    margin: 5px 0;
+}
